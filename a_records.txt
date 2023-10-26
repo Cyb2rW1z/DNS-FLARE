@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.19.17-1-Debian <<>> nsogroup.com A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53165
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;nsogroup.com.			IN	A
+
+;; ANSWER SECTION:
+nsogroup.com.		3597	IN	A	99.83.219.180
+nsogroup.com.		3597	IN	A	75.2.111.154
+
+;; Query time: 24 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1) (UDP)
+;; WHEN: Wed Oct 25 16:12:05 EDT 2023
+;; MSG SIZE  rcvd: 73
+

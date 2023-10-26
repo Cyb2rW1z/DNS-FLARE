@@ -1,0 +1,109 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            08:e8:de:d7:0c:cf:a4:40:6b:25:a0:0b:14:de:97:ce
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = US, O = Amazon, CN = Amazon RSA 2048 M02
+        Validity
+            Not Before: Feb  8 00:00:00 2023 GMT
+            Not After : Mar  8 23:59:59 2024 GMT
+        Subject: CN = nsogroup.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c6:56:a3:4f:80:49:bd:46:3a:9f:e3:16:bc:5e:
+                    c2:68:db:a9:46:60:ad:72:ab:1a:78:8a:5a:82:9e:
+                    61:fd:2d:21:89:92:73:83:89:16:a3:b3:27:c7:10:
+                    55:85:e6:12:bc:b1:a3:7e:bb:46:2b:70:b1:09:ea:
+                    d8:15:be:71:c4:35:04:9a:61:73:37:1c:eb:a8:5e:
+                    e3:09:7e:f0:51:2d:a1:5d:2d:1e:14:6a:13:95:b6:
+                    c4:13:bf:36:d8:12:35:58:58:8b:fc:76:f1:de:fa:
+                    3d:ff:bd:20:b5:13:12:3d:2e:17:83:a5:3e:2b:9d:
+                    85:6e:cf:5b:46:a5:e7:f4:74:85:74:5d:84:68:fc:
+                    8e:b8:f9:96:ed:39:d8:64:17:a8:6e:b9:c1:54:dd:
+                    c2:21:ea:f2:23:d4:0d:9a:c0:bb:82:fd:6a:e4:9a:
+                    b6:56:7d:0c:28:f0:0b:04:dc:17:05:c9:7d:f1:4d:
+                    13:a1:56:f9:b9:2c:19:55:21:25:ee:8b:de:0b:b7:
+                    14:17:ba:99:f1:5e:4f:f0:80:9c:e6:0c:f5:85:00:
+                    0c:4d:8a:88:12:a5:ad:bc:30:80:b0:ac:0f:55:52:
+                    04:75:f0:c9:41:d7:7a:9f:4f:a1:be:e6:84:c8:af:
+                    98:57:0a:d0:8e:18:1b:71:e3:a7:79:99:ff:18:34:
+                    de:57
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                C0:31:52:CD:5A:50:C3:82:7C:74:71:CE:CB:E9:9C:F9:7A:EB:82:E2
+            X509v3 Subject Key Identifier: 
+                53:DF:4C:D4:FB:6B:03:15:2D:82:DE:AE:B4:ED:AB:0B:47:3C:6C:14
+            X509v3 Subject Alternative Name: 
+                DNS:nsogroup.com, DNS:www.nsogroup.com
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://crl.r2m02.amazontrust.com/r2m02.crl
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.1
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.r2m02.amazontrust.com
+                CA Issuers - URI:http://crt.r2m02.amazontrust.com/r2m02.cer
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 76:FF:88:3F:0A:B6:FB:95:51:C2:61:CC:F5:87:BA:34:
+                                B4:A4:CD:BB:29:DC:68:42:0A:9F:E6:67:4C:5A:3A:74
+                    Timestamp : Feb  8 10:00:28.509 2023 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:01:73:FB:CE:59:F4:06:84:56:2E:ED:48:
+                                FC:42:4A:A1:05:7C:5C:E7:33:3C:82:16:5C:58:1E:73:
+                                12:12:DD:72:02:20:27:3F:5D:CD:71:59:46:09:C3:30:
+                                0E:7A:76:DB:16:D1:01:8E:96:BF:36:70:6C:88:FF:14:
+                                7E:8E:4B:37:43:40
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 73:D9:9E:89:1B:4C:96:78:A0:20:7D:47:9D:E6:B2:C6:
+                                1C:D0:51:5E:71:19:2A:8C:6B:80:10:7A:C1:77:72:B5
+                    Timestamp : Feb  8 10:00:28.508 2023 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:20:1D:FA:25:BF:9B:55:4A:19:B5:F5:6B:5C:
+                                E7:FB:2F:84:05:3B:EE:F5:97:11:45:87:A0:CA:F8:5C:
+                                32:6F:5A:CA:02:21:00:9C:E6:0C:B0:CE:FC:42:B0:89:
+                                B0:46:92:66:DF:A4:2C:F6:AB:EB:CB:E4:48:C1:68:12:
+                                7F:0B:ED:94:30:4F:0F
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 48:B0:E3:6B:DA:A6:47:34:0F:E5:6A:02:FA:9D:30:EB:
+                                1C:52:01:CB:56:DD:2C:81:D9:BB:BF:AB:39:D8:84:73
+                    Timestamp : Feb  8 10:00:28.452 2023 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:20:57:CB:36:48:FE:69:BF:D2:CC:A4:BE:3B:
+                                43:72:90:F4:B5:20:CD:8D:36:3E:5D:8C:AD:EC:63:4C:
+                                0C:2B:DA:BD:02:21:00:D5:A2:D8:5E:64:2A:A8:85:96:
+                                0D:0B:A7:C1:54:66:AB:78:30:CB:C9:D6:A6:EB:77:68:
+                                68:2C:D4:0F:8B:A5:FD
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        40:5c:bc:67:16:5d:0d:90:fb:db:81:bd:f1:f7:a3:ce:45:97:
+        52:98:a2:58:41:81:dd:4f:9b:f8:99:7d:2e:c4:54:b3:4c:60:
+        54:36:ce:19:b0:6a:e6:f6:2d:f5:d3:3a:39:3e:c7:3d:9b:fb:
+        c0:36:ed:bb:16:ee:2d:b8:dd:c8:6e:74:c9:94:f1:b6:84:cc:
+        d3:6e:38:28:8e:fb:e7:a4:58:a7:49:ce:c6:25:02:2a:36:62:
+        ab:3f:01:51:70:3f:15:02:9a:23:59:b8:1c:93:32:b2:9d:1a:
+        85:4f:04:e6:e2:1e:c8:9d:2d:d0:b5:a1:5f:de:60:1e:b2:d7:
+        f2:5c:d5:a0:6e:f5:cb:3b:f6:62:35:09:81:2f:7c:c8:23:06:
+        1b:81:fc:c1:9f:dd:ab:ec:35:1d:f8:85:5f:12:9e:80:dc:9a:
+        54:54:8c:bc:81:cf:4f:e7:21:48:6e:85:a9:bb:79:1d:36:d7:
+        b6:08:ad:ee:3a:8b:7b:e9:94:3a:8a:51:32:79:a6:c6:27:e7:
+        2c:1a:64:0b:ec:a8:ac:12:cb:d5:d0:23:d5:de:98:59:09:81:
+        66:ad:d6:f6:b0:16:82:19:86:e7:34:5b:d5:6e:c8:4a:bb:c2:
+        78:2d:38:e9:2f:3b:ce:6d:8c:13:48:22:73:f3:36:e8:2d:5a:
+        8a:98:70:6d

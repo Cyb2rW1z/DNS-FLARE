@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.19.17-1-Debian <<>> dkim._domainkey.nsogroup.com TXT
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 58128
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;dkim._domainkey.nsogroup.com.	IN	TXT
+
+;; AUTHORITY SECTION:
+nsogroup.com.		900	IN	SOA	ns-908.awsdns-49.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+
+;; Query time: 68 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1) (UDP)
+;; WHEN: Wed Oct 25 16:12:04 EDT 2023
+;; MSG SIZE  rcvd: 138
+
