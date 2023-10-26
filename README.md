@@ -46,7 +46,7 @@
 - theHarvester 
 ## License
 
-This project is licensed under the Tuwaiq Academy .
+This project is licensed under Jbr & HackersFLOW team .
 
 ## Contribution
 
